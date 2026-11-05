@@ -1,0 +1,15 @@
+{
+  "name": "Сталь и руны — Хроники Серого предела",
+  "short_name": "Сталь и руны",
+  "description": "Автономная тактическая RPG для телефонов.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101619",
+  "theme_color": "#101619",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
