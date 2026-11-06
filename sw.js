@@ -1,5 +1,5 @@
-const CACHE = 'steel-and-runes-v3';
-const SHELL = ['./', './index.html', './app.webmanifest', './icon.svg'];
+const CACHE = 'steel-and-runes-v4';
+const SHELL = ['./', './index.html', './game.js', './app.webmanifest', './icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)));
   self.skipWaiting();
